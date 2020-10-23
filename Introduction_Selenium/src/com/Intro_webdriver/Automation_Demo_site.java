@@ -11,12 +11,6 @@ public class Automation_Demo_site {
 
 	public static void main(String[] args) 
 	{
-		
-
-		
-		
-		
-		
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "E:\\Automation Softwares SetUp\\Selenium Jars\\chromedriver.exe");
 		driver= new ChromeDriver();
@@ -57,9 +51,6 @@ public class Automation_Demo_site {
 		driver.findElement(By.xpath("//*[@id=\"imagesrc\"]")).sendKeys("C:\\Users\\Admin\\Desktop\\1.jpg");
 			
 		driver.findElement(By.xpath("//*[@id=\"submitbtn\"]")).click();
-		
-		
-	
-	}
 
+	}
 }
